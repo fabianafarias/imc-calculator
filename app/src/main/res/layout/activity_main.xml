@@ -14,11 +14,13 @@
         android:textColor="@color/purple_500"
         android:textSize="44sp"
         android:textStyle="bold"
+        android:textAlignment="center"
         app:layout_constraintBottom_toTopOf="@+id/altura"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_horizontal" />
 
     <EditText
         android:id="@+id/altura"
